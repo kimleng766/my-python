@@ -1,0 +1,17 @@
+#chatbot
+import random
+import time
+chat places = ["the beach" , "anywhere with snow" , " any big city "]
+print( welcome to chatbox)
+name = input("what is your name")
+print("hi there", name, " it is great to meet you")
+place = input("where is your favorite place?")
+time.sleep2
+print("that sounds great, i really love", random.choice(chatplaces))
+day = input("have you had a good day?")
+day = day.lower()
+if day == "yes":
+print ("good to hear that")
+else:
+print("well i hope tmr is better")
+
